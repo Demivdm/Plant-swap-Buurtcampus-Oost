@@ -1,9 +1,19 @@
-<%- include('./partials/head') %>
+<%- include('./partials/head.ejs') %>
+
 
 <% stekjes.forEach(stekje => { %>
    
     <h2><%= stekje.naam %></h2>
+
+    <div class="plant-info-card">
+        <img class="card-image" src="https://picsum.photos/100" alt="">
+        <ul>
+            <li><% stekje.giftig %></li>
+            <li><% stekje.landvanherkomst %></li>
+        </ul>
+    </div>
    
     <% }) %>
+    
 
 <%- include('./partials/foot') %>
