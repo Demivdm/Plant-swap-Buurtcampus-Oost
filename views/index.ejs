@@ -1,19 +1,34 @@
 <%- include('./partials/head.ejs') %>
 
+<section class="background-color">
+    <div class="homepage-button-position">
+    <button class="homepage-button-left">Ruilen</button>
+    <button class="homepage-button-right">Inleveren</button>
+    </div>
+    <p class="homepage-instruction">Hoe werkt het?</p>
+    <span class="arrow-down">&#8681;</span>
+</section>
 
 <% stekjes.forEach(stekje => { %>
+
+    <section class="plant-info-card">
    
     <h2><%= stekje.naam %></h2>
 
-    <div class="plant-info-card">
+    <div class="plant-info-card-back">
+        <div class="dot"></div>
         <img class="card-image" src="https://picsum.photos/100" alt="">
         <ul>
-            <li><% stekje.giftig %></li>
-            <li><% stekje.landvanherkomst %></li>
+            <li><span>Verpotten</span> <%= stekje.verpotten %></li>
+            <li><span>Giftig</span> <%= stekje.giftig %></li>
+            <li><span>Land van herkomst</span> <%= stekje.landvanherkomst %></li>
+            <li><span>Voeding</span> <%= stekje.voeding %></li>
         </ul>
     </div>
-   
+</section>
+
     <% }) %>
+
     
 
 <%- include('./partials/foot') %>
