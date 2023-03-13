@@ -1,13 +1,25 @@
 <%- include('./partials/head.ejs') %>
-
+<div class="page-slider">
+    
 <section class="background-color">
     <div class="homepage-button-position">
     <button class="homepage-button-left">Ruilen</button>
     <button class="homepage-button-right">Inleveren</button>
     </div>
     <p class="homepage-instruction">Hoe werkt het?</p>
-    <span class="arrow-down">&#8681;</span>
+    </section>
+
+<!-- SCND PAGE  -->
+
+    <button onClick="slide('next')" class="arrow-down"></button>
+
+<section class="page">
+    <h2>Hoe werkt het?</h2>
+    <img class="card-image" src="https://picsum.photos/10" alt="">
+     <p>stap 1</p>   
 </section>
+</div>
+<!-- END SCND PAGE -->
 
 <% stekjes.forEach(stekje => { %>
 
