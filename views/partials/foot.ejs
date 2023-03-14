@@ -1,8 +1,12 @@
 </body>
 <script>
+  // vars
     const pages = document.querySelectorAll(".page-slider");
     const translateAmount = 100; 
     let translate = 0;
+    const cards = document.querySelectorAll(".cards-single");
+    
+// ik vermoed dat dit een afgekorte functie is maar ik begrijp niet wat de tekens betekenen
 slide = (direction) => {
 direction === "next" ? translate -= translateAmount : translate += translateAmount;
 pages.forEach(
@@ -10,7 +14,12 @@ pages.forEach(
       );
     }
 
-    
+// functions 
+
+function flipCard() {
+  this.classList.toggle("flip");
+}
+cards.forEach((card) => card.addEventListener("click", flipCard));
 </script>
 
 

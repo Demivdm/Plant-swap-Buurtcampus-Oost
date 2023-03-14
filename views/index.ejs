@@ -1,6 +1,6 @@
 <%- include('./partials/head.ejs') %>
 <div class="page-slider">
-    
+    <h1 class="head-title">Plant Swap</h1>
 <section class="background-color">
     <div class="homepage-button-position">
     <button class="homepage-button-left">Ruilen</button>
@@ -26,7 +26,14 @@
     <section class="plant-info-card">
    
     <h2><%= stekje.naam %></h2>
-
+<div class="cards-single">
+    <div class="plant-info-card-front">
+        <div class="dot"></div>
+        <img class="card-image" src="https://picsum.photos/100/150" alt="">
+       
+    </div>
+</div>
+<div class="cards">
     <div class="plant-info-card-back">
         <div class="dot"></div>
         <img class="card-image" src="https://picsum.photos/100" alt="">
@@ -37,6 +44,7 @@
             <li><span>Voeding</span> <%= stekje.voeding %></li>
         </ul>
     </div>
+</div>
 </section>
 
     <% }) %>
