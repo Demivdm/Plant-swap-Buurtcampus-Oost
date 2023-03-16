@@ -11,8 +11,8 @@ body{
 }
 
 :root{
-    --background-color-green: #e28743;
-    --border-color-black: black;
+    --background-color-green: rgb(75, 152, 49) ;
+    --background-color-blue: rgb(75, 80, 235);
 }
 
 /* HOMEPAGE HEADER */
@@ -30,20 +30,20 @@ body{
 .homepage-button-left{
     padding: 1rem;
     font-size: 35px;
-    background: rgb(17, 170, 0);
+    background:var(--background-color-green);
 }
 
 .homepage-button-right{
     padding: 1rem;
     font-size: 35px;
-    background-color: rgb(64, 0, 255);
+    background-color: var(--background-color-blue);
 }
 
 .homepage-button-position{
 
     display: flex;
     justify-content: space-around;
-    top: 40%;
+    top: 28rem;
     position: relative;
 
 }
@@ -61,16 +61,16 @@ a{
     
     background: linear-gradient(
       to right,
-      rgb(64, 0, 255) 0%,
-      rgb(64, 0, 255) 50%,
-      rgb(17, 170, 0) 50%,
-      rgb(17, 170, 0) 100%
+      rgb(52, 56, 162) 0%,
+      rgb(52, 56, 162) 50%,
+      rgb(75, 152, 49) 50%,
+      rgb(75, 152, 49) 100%
     );
 }
 .homepage-instruction{
     position: relative;
     text-align: center;
-    top: 40rem;
+    top: 35rem;
     font-size: 40px;
 }
 .arrow-down{
@@ -89,7 +89,7 @@ a{
   -webkit-transform: rotate(45deg);
   background-color: transparent;
   cursor: pointer;
-  top:45rem;
+  top:40rem;
         
 }
 /* END homepage header */
@@ -99,7 +99,7 @@ a{
     position: relative;
     width: 100%;
     text-align: center;
-    background-color: #87ee8c;
+    background-color: var(--background-color-green);
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -126,7 +126,7 @@ a{
     position: relative;
     justify-content: space-around;
     gap: 50px;
-    background-color: #87ee8c;
+    background-color: var(--background-color-green);
 
   }
   .plant-box {
@@ -169,14 +169,14 @@ a{
   }
 
   .back {
-    background-color: blue;
+    background-color: var(--background-color-blue);
     transform: rotateY(180deg);
   }
   .plant-box:hover .plant-card {
     transform: rotateY(180deg);
   }
 .dot{
-    background-color: #87ee8c;
+    background-color: var(--background-color-green);
     width: 25px;
     height: 25px;
     border-radius: 50px;
@@ -199,7 +199,3 @@ li{
 }
 /* plant container END */
 
-
-@media(min-width:1080px){
-
-}
