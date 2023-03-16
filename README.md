@@ -1,7 +1,7 @@
 ![website-example-responsive](https://user-images.githubusercontent.com/112861166/225738613-230e0c56-e80e-4ceb-a8fe-7c4f19be00c7.jpg)
 
 
-# Titel
+# stekjesbieb Buurtcampus oost
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave
