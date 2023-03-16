@@ -1,61 +1,68 @@
 <%- include('./partials/head.ejs') %>
-<div class="page-slider">
+
     <h1 class="head-title">Plant Swap</h1>
 <section class="background-color">
     <div class="homepage-button-position">
-    <button class="homepage-button-left">Ruilen</button>
-    <button class="homepage-button-right">Inleveren</button>
+    <a href="#stekjes" class="homepage-button-left">Stekjes</a>
+    <a class="homepage-button-right">Ruilen</a>
     </div>
    <p class="homepage-instruction">Hoe werkt het?</p>
     </section>
 
 <!-- SCND PAGE  -->
 
-    <a href="#page1"  class="arrow-down"></a>
+    <a href="#instruction-page"  class="arrow-down"></a>
 
-<section class="page" id="page1"> 
+<article class="instruction-page" id="instruction-page"> 
     <h2>Hoe werkt het?</h2>
-    <img class="card-image" src="https://picsum.photos/10" alt="">
-     <p>stap 1</p>   
-</section>
-</div>
-<!-- END SCND PAGE -->
+     <h3>Stap 1</h3> 
+     <p>Hier wordt beschreven hoe stap 1 wordt uitgevoerd</p> 
+     <img src="/views/partials/plant-pictogram.png" alt=""> 
+     <h3>Stap 2</h3> 
+     <p>Hier wordt beschreven hoe stap 2 wordt uitgevoerd</p> 
+     <img src="/views/partials/plant-pictogram.png" alt=""> 
+     <h3>Stap 3</h3> 
+     <p>Hier wordt beschreven hoe stap 3 wordt uitgevoerd</p> 
+     <img src="/views/partials/plant-pictogram.png" alt=""> 
+</article>
 
+<!-- END SCND PAGE -->
+<h2 id="stekjes" class="plant-card-title">Beschikbare stekjes</h2>
+<section class="plant-card-section">
+  
 <% stekjes.forEach(stekje => { %>
 
-    <section class="plant-info-card">
-   
     
-    <!-- <div class="cards">
+        <div class="plant-box">
+          <div class="plant-card">
+            <div class="front">
+              <div class="dot"></div>
+              <div class="content">
+                <img class="card-image" src="https://picsum.photos/250/300" alt="">
+                <h2><%= stekje.naam %></h2>
+              </div>
+            </div>
 
-    <div class="plant-info-card-front">
-        <h2><%= stekje.naam %></h2>
-        <div class="dot"></div>
-        <img class="card-image" src="https://picsum.photos/100/150" alt="">
-       
-    </div>
-    
-</div> -->
-
-
-    <div class="plant-info-card-back">
-        <div class="dot"></div>
-        <h2><%= stekje.naam %></h2>
+            <div class="back">
+              <div class="dot"></div>
+              <div class="content">
+                
+                <h2><%= stekje.naam %></h2>
+                <ul>
+                    <li><span>Verpotten</span> <%= stekje.verpotten %></li>
+                    <li><span>Giftig</span> <%= stekje.giftig %></li>
+                    <li><span>Land van herkomst</span> <%= stekje.landvanherkomst %></li>
+                    <li><span>Voeding</span> <%= stekje.voeding %></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
         
-        <img class="card-image" src="https://picsum.photos/100" alt="">
-        <ul>
-            <li><span>Verpotten</span> <%= stekje.verpotten %></li>
-            <li><span>Giftig</span> <%= stekje.giftig %></li>
-            <li><span>Land van herkomst</span> <%= stekje.landvanherkomst %></li>
-            <li><span>Voeding</span> <%= stekje.voeding %></li>
-        </ul>
-    </div>
-</div>
-</div>
-</section>
+      
 
     <% }) %>
-
+</section>
     
 
 <%- include('./partials/foot') %>
