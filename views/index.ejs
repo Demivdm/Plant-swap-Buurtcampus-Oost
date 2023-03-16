@@ -6,14 +6,14 @@
     <button class="homepage-button-left">Ruilen</button>
     <button class="homepage-button-right">Inleveren</button>
     </div>
-    <p class="homepage-instruction">Hoe werkt het?</p>
+   <p class="homepage-instruction">Hoe werkt het?</p>
     </section>
 
 <!-- SCND PAGE  -->
 
-    <button onClick="slide('next')" class="arrow-down"></button>
+    <a href="#page1"  class="arrow-down"></a>
 
-<section class="page">
+<section class="page" id="page1"> 
     <h2>Hoe werkt het?</h2>
     <img class="card-image" src="https://picsum.photos/10" alt="">
      <p>stap 1</p>   
@@ -25,17 +25,23 @@
 
     <section class="plant-info-card">
    
-    <h2><%= stekje.naam %></h2>
-<div class="cards-single">
+    
+    <!-- <div class="cards">
+
     <div class="plant-info-card-front">
+        <h2><%= stekje.naam %></h2>
         <div class="dot"></div>
         <img class="card-image" src="https://picsum.photos/100/150" alt="">
        
     </div>
-</div>
-<div class="cards">
+    
+</div> -->
+
+
     <div class="plant-info-card-back">
         <div class="dot"></div>
+        <h2><%= stekje.naam %></h2>
+        
         <img class="card-image" src="https://picsum.photos/100" alt="">
         <ul>
             <li><span>Verpotten</span> <%= stekje.verpotten %></li>
@@ -44,6 +50,7 @@
             <li><span>Voeding</span> <%= stekje.voeding %></li>
         </ul>
     </div>
+</div>
 </div>
 </section>
 
