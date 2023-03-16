@@ -1,4 +1,5 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+![website-example-responsive](https://user-images.githubusercontent.com/112861166/225738613-230e0c56-e80e-4ceb-a8fe-7c4f19be00c7.jpg)
+
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
