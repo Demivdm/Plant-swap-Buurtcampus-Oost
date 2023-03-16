@@ -176,7 +176,7 @@ a{
     transform: rotateY(180deg);
   }
 .dot{
-    background-color: white;
+    background-color: #87ee8c;
     width: 25px;
     height: 25px;
     border-radius: 50px;
