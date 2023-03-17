@@ -2,7 +2,7 @@
 
 
 # stekjesbieb Buurtcampus oost
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Dit is een pagina voor buurtcampus oost. Op deze pagina kan de gebruiker de huidige stekjes bekijken en eventueel ruilen.
 
 ## Inhoudsopgave
 
@@ -21,7 +21,7 @@
 
 ## Beschrijving
 
-Op deze pagina kun informatie over mij vinden.
+Userstory: 
 
 ## Kenmerken
 
@@ -63,6 +63,7 @@ Dit project is gemaakt met HTML, CSS en Javascript. Verder staat hieronder een k
   ❌Header
   ❌Footer
   ❌Filter
+  ❌Ruil formulier
 
 **Could have**
 
