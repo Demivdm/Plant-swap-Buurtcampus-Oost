@@ -45,9 +45,13 @@ Dit project is gemaakt met HTML, CSS en Javascript. Verder staat hieronder een k
 
 ## Installatie
 
-1. Clone of download deze respository.
-2. Ga naar de root directory van het project.
-3. Open het index.html bestand, hierdoor wordt de homepagina van de website geopend.
+1. Installeer NodeJS
+2. Clone of download deze respository.
+3. Open de terminal
+4. Voer npm install uit (of npm i) in de terminal
+5. Wanneer alles is geinstalleerd, voer npm start uit.
+6. De applicatie wordt gehost op http://localhost:8000/
+
 
 ## 🎩 MoSCoW checklist
 
