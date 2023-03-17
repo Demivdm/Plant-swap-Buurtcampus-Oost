@@ -21,7 +21,7 @@ Dit is een pagina voor buurtcampus oost. Op deze pagina kan de gebruiker de huid
 
 ## Beschrijving
 
-Userstory: 
+Userstory: Als buurtbewoner wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen
 
 ## Kenmerken
 
