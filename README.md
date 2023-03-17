@@ -21,6 +21,8 @@ Dit is een pagina voor buurtcampus oost. Op deze pagina kan de gebruiker de huid
 
 ## Beschrijving
 
+User stories uitwerken op basis van dynamische data uit een API. Vertrekpunt is een overzichtspagina van de belangrijkste content met verwijzingen naar detailpagina's.
+
 Userstory: Als buurtbewoner wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen
 
 ## Kenmerken
