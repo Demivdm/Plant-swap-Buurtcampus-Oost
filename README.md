@@ -7,15 +7,15 @@ Dit is een pagina voor buurtcampus oost. Op deze pagina kan de gebruiker de huid
 ## Inhoudsopgave
 
 
-* [Beschrijving](https://github.com/Demivdm/connect-your-tribe-profile-card#beschrijving) 
+* [Beschrijving](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#beschrijving) 
 
-* [Kenmerken](https://github.com/Demivdm/connect-your-tribe-profile-card#kenmerken) 
+* [Kenmerken](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#kenmerken) 
 
-* [Installatie](https://github.com/Demivdm/connect-your-tribe-profile-card#installatie)
+* [Installatie](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#installatie)
 
-* [MoSCoW checklist](https://github.com/Demivdm/connect-your-tribe-profile-card#-moscow-checklist)
+* [MoSCoW checklist](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#-moscow-checklist)
 
-* [Licentie](https://github.com/Demivdm/connect-your-tribe-profile-card#licentie)
+* [Licentie](https://github.com/Demivdm/Plant-swap-Buurtcampus-Oost/blob/main/README.md#licentie)
 
 
 
