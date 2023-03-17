@@ -1,7 +1,7 @@
+# Stekjesbieb Buurtcampus oost
+
 ![website-example-responsive](https://user-images.githubusercontent.com/112861166/225738613-230e0c56-e80e-4ceb-a8fe-7c4f19be00c7.jpg)
 
-
-# stekjesbieb Buurtcampus oost
 Dit is een pagina voor buurtcampus oost. Op deze pagina kan de gebruiker de huidige stekjes bekijken en eventueel ruilen.
 
 ## Inhoudsopgave
