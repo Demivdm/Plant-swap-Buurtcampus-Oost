@@ -65,8 +65,11 @@ Dit project is gemaakt met HTML, CSS en Javascript. Verder staat hieronder een k
 **Should have**
 
   ❌Header
+  
   ❌Footer
+  
   ❌Filter
+  
   ❌Ruil formulier
 
 **Could have**
