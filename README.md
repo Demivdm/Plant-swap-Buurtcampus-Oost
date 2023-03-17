@@ -6,27 +6,76 @@
 
 ## Inhoudsopgave
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+
+* [Beschrijving](https://github.com/Demivdm/connect-your-tribe-profile-card#beschrijving) 
+
+* [Kenmerken](https://github.com/Demivdm/connect-your-tribe-profile-card#kenmerken) 
+
+* [Installatie](https://github.com/Demivdm/connect-your-tribe-profile-card#installatie)
+
+* [MoSCoW checklist](https://github.com/Demivdm/connect-your-tribe-profile-card#-moscow-checklist)
+
+* [Licentie](https://github.com/Demivdm/connect-your-tribe-profile-card#licentie)
+
+
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+
+Op deze pagina kun informatie over mij vinden.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+Dit project is gemaakt met HTML, CSS en Javascript. Verder staat hieronder een korte lijst met gebruikte tools en middelen.
+
+**Tools**
+
+🖥️ Visual Studio Code
+
+🔥 Figma
+
+✍ Pen, papier en tekentablet
+
+📒Node.js
+
+**Gebruikte technieken**
+
+📟 HTML
+
+⌚ CSS
 
 ## Installatie
 
-## Gebruik
+1. Clone of download deze respository.
+2. Ga naar de root directory van het project.
+3. Open het index.html bestand, hierdoor wordt de homepagina van de website geopend.
 
-## Bronnen
+## 🎩 MoSCoW checklist
+
+**Must have**
+  
+  ✅Mobiele versie
+  
+  ✅Desktop versie
+ 
+
+**Should have**
+
+  ❌Header
+  ❌Footer
+  ❌Filter
+
+**Could have**
+
+  ❌Plant scroll animatie
+
+**Won't have**
+
+  🦸‍♀️Nothing is impossible
+
+_tip!_ check mijn [issues](https://github.com/Demivdm/connect-your-tribe-profile-card/issues) om te kijken waar ik momenteel mee bezig ben.
 
 ## Licentie
 
-This project is licensed under the terms of the [MIT license](./LICENSE).
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+This work is licensed under [GNU GPLv3](./LICENSE).
