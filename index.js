@@ -1,23 +1,23 @@
-import express from 'express'
+import express from "express";
 
-const url = 'https://api.buurtcampus-oost.fdnd.nl/api/v1'
+const url = "https://api.buurtcampus-oost.fdnd.nl/api/v1";
 
 // Maak een nieuwe express app
-const app = express()
+const app = express();
 
 // Stel in hoe we express gebruiken
-app.set('view engine', 'ejs')
-app.set('views', './views')
-app.use(express.static('public'))
+app.set("view engine", "ejs");
+app.set("views", "./views");
+app.use(express.static("public"));
 
 // Maak een route voor de index
-app.get('/', (request, response) => {
-  let stekjesUrl = url + '/stekjes'
+app.get("/", (request, response) => {
+  let stekjesUrl = url + "/stekjes";
 
   fetchJson(stekjesUrl).then((data) => {
-    response.render('index', data)
-  })
-})
+    response.render("index", data);
+  });
+});
 
 // app.get('/sprint', (request, response) => {
 //   let slug = request.query.sprintSlug || 'your-tribe'
@@ -37,10 +37,10 @@ app.get('/', (request, response) => {
 // })
 
 // Stel het poortnummer in en start express
-app.set('port', process.env.PORT || 8000)
-app.listen(app.get('port'), function () {
-  console.log(`Application started on http://localhost:${app.get('port')}`)
-})
+app.set("port", process.env.PORT || 8000);
+app.listen(app.get("port"), function () {
+  console.log(`Application started on http://localhost:${app.get("port")}`);
+});
 
 /**
  * Wraps the fetch api and returns the response body parsed through json
@@ -50,5 +50,5 @@ app.listen(app.get('port'), function () {
 async function fetchJson(url) {
   return await fetch(url)
     .then((response) => response.json())
-    .catch((error) => error)
+    .catch((error) => error);
 }

@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+   
     
 }
 body{
     overflow-x: hidden;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddf7d5;
 }
 
 :root{
@@ -25,18 +28,30 @@ body{
     top: 6rem;
     transform: translate(-50%, -15%);
     font-family: Arial, Helvetica, sans-serif;
+    color: #ddf7d5;
+
 }
 
 .homepage-button-left{
     padding: 1rem;
     font-size: 35px;
     background:var(--background-color-green);
+    color: #ddf7d5;
+    transition: transform 0.3s ease-in-out;
+}
+.homepage-button-right{
+  padding: 1rem;
+  font-size: 35px;
+  background-color: var(--background-color-blue);
+  color:#ddf7d5;
+  transition: transform 0.3s ease-in-out;
 }
 
-.homepage-button-right{
-    padding: 1rem;
-    font-size: 35px;
-    background-color: var(--background-color-blue);
+.homepage-button-left:hover{
+  transform: scale(1.2);
+}
+.homepage-button-right:hover{
+  transform: scale(1.2);
 }
 
 .homepage-button-position{
@@ -72,11 +87,12 @@ a{
     text-align: center;
     top: 35rem;
     font-size: 40px;
+    color: #ddf7d5;
 }
 .arrow-down{
     width: 100px;
     height: 100px;
-    border: solid black;
+    border: solid #ddf7d5;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -94,6 +110,9 @@ a{
 }
 /* END homepage header */
 /* START INSTRUCTION PAGE */
+.instruction-page > h2{
+  margin-bottom: 5rem;
+}
 .instruction-page{
     top: 50rem;
     position: relative;
@@ -101,9 +120,10 @@ a{
     text-align: center;
     background-color: var(--background-color-green);
     margin: 0;
-    padding: 0;
+    padding-top: 10rem;
     height: 100vh;
     font-size: 35px;
+    color: #ddf7d5;
 }
 
 
@@ -118,7 +138,7 @@ a{
     padding: 0;
 }
 .plant-card-section {
-   height: 200vh;
+   height: 100%;
     display: flex;
     padding: 0 4em;
     flex-wrap: wrap;
@@ -127,6 +147,7 @@ a{
     justify-content: space-around;
     gap: 50px;
     background-color: var(--background-color-green);
+    padding: 5rem 0 5rem 0;
 
   }
   .plant-box {
@@ -182,7 +203,7 @@ a{
     border-radius: 50px;
     z-index: 1;
     position: absolute;
-    top: .2rem;
+    top: 1rem;
 }
 
 
